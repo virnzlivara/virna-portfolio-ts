@@ -48,11 +48,11 @@ export const projects = [
       
   ];
 
-  export const testimonials = [
-    {
-        quote:"",
-        image:"",
-        name:"",
-        company:""
-    }
-  ];
+ interface ITestimonials 
+  {
+      quote:string,
+      image:string,
+      name:string,
+      company:string
+  }
+  export const testimonials : ITestimonials[] = [];
