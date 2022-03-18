@@ -4,15 +4,15 @@ export const projects = [
       subtitle: "Hotel Reservation and Booking app for an International Hotel",
       description:
         "We use the Kony mobile technology using Lua Programming language, some of the features are GeoLocation, Maps, Push Notification, Credit Card Payment, Omniture Analytics, etc. Support mostly of the all the devices",
-      image: "./confidential.png"
+      image: "./marriott.png"
     },
     {
       title: "ExtJS/Sencha",
       subtitle: "ERP Project",
       description:
         "We use Sencha/EJS Framework and REST API on the backend, this supports iOS and Android Platform. Some of the feature are Maps, Google Analytics, OATH Authentication, SSO Login, Dynamic Layout, etc",
-      image: "./confidential.png",
-      link: ""
+      image: "./Deltek.png",
+      link: "https://apps.apple.com/ph/app/deltek-touch-for-maconomy/id577440088"
     },
     {
       title: "Cloud App",

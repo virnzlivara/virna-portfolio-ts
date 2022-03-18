@@ -14,7 +14,7 @@ const config: Config.InitialOptions = {
     "json"
   ],
   moduleNameMapper: {
-    "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js"
+    "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.jsss"
   }
 }
 export default config

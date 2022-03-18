@@ -71,7 +71,7 @@ export const Contact = () : JSX.Element => {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            And I wont let you down :)
+            Lets build amazing application
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
