@@ -1,4 +1,4 @@
-import React from "react";
+import React, { JSX } from "react";
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { testimonials } from "../data";
 

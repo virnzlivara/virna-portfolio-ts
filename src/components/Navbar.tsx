@@ -1,5 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
-import React from "react";
+import React, { JSX } from "react";
 export const Navbar = () : JSX.Element => {
     return(
         <header className="bg-gray-800 md:sticky top-0 z-10">

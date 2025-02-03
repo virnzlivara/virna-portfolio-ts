@@ -1,6 +1,5 @@
-import React from "react";
-import emailjs from 'emailjs-com';
-export const Contact = () : JSX.Element => {
+import React from "react"; 
+export const Contact = ()  => {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
