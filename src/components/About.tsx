@@ -1,6 +1,6 @@
-import { JSX } from "react";
-
-export const About = () : JSX.Element => {
+ 
+import React from "react";
+export const About = () => {
     return(
         <section id="about">
             <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">

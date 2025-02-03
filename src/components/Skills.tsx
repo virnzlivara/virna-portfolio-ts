@@ -1,5 +1,5 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
-import React from "react";
+import React, { JSX } from "react";
 import { BackEndSkills, FrontEndSkills, OtherSkills, skills } from "../data";
 
 export const Skills = () : JSX.Element => {

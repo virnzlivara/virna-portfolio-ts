@@ -1,5 +1,5 @@
 import { CodeIcon } from "@heroicons/react/solid";
-import React from "react";
+import React, { JSX } from "react";
 import { projects } from "../data";
 
 export const Projects = () : JSX.Element => {
