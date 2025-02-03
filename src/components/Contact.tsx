@@ -15,12 +15,13 @@ export const Contact = () : JSX.Element => {
   
     const handleSubmit = (e: any) => {
       e.preventDefault();
+      
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", name, email, message }),
       })
-        .then(() => alert("Message sent!"))
+        .then(() => alert(""))
         .catch((error) => alert(error));
     }
   
@@ -121,7 +122,8 @@ export const Contact = () : JSX.Element => {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            disabled
+            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-500 rounded text-lg">
             Submit
           </button>
         </form>
