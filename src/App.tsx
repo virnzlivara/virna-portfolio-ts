@@ -10,7 +10,7 @@ import { Contact } from './components/Contact';
 const App = () : JSX.Element =>{
   return (
     <div className="App">
-      <main className="text-gray-400 bg-gray-900 body-font">
+      <main className="text-gray-900    body-font bg-gradient-to-r from-blue-500 to-transparent">
         <Navbar/>
        <About />
        <Projects />

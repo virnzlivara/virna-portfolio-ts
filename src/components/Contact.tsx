@@ -1,4 +1,5 @@
 import React from "react";
+import emailjs from 'emailjs-com';
 export const Contact = () : JSX.Element => {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
@@ -43,7 +44,7 @@ export const Contact = () : JSX.Element => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
+              <p className="mt-1 text-white">
                 Molino III <br />
                 Bacoor, Cavite, PH 4102
               </p>
@@ -59,7 +60,15 @@ export const Contact = () : JSX.Element => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">(+63)9178861296</p>
+              <p className="leading-relaxed text-white">(+63)9178861296</p>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                GITHUB
+              </h2>
+              <a href="https://github.com/virnzlivara/" className="leading-relaxed text-white">https://github.com/virnzlivara/</a>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                LINKEDIN
+              </h2>
+              <a href="https://www.linkedin.com/in/virna-cabaguing-95129844/" className="leading-relaxed text-white">https://www.linkedin.com/in/virna-cabaguing-95129844/</a>
             </div>
           </div>
         </div>
@@ -67,14 +76,14 @@ export const Contact = () : JSX.Element => {
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-gray-700 sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
             Lets build amazing application
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-900">
               Name
             </label>
             <input

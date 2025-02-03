@@ -12,7 +12,7 @@ export const Projects = () : JSX.Element => {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This portion is still in progress. Most of my projects are from a confidential project so I cannot share some info. :)
+            This portion is still in progress. Most of my projects are from a confidential. :)
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -35,6 +35,7 @@ export const Projects = () : JSX.Element => {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed text-sm mt-2">Key Features: {project.features}</p>
                 </div>
               </div>
             </a>
