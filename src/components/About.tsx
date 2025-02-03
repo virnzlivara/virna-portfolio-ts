@@ -31,7 +31,7 @@ export const About = () => {
                 <img
                     className="object-cover object-center rounded mix-blend-multiply" 
                     alt="Virna"
-                    src="./me.jpg"
+                    src="./virna.JPG"
                 />
                 </div>
             </div>
