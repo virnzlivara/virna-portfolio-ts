@@ -16,9 +16,9 @@ export const Navbar = () : JSX.Element => {
                 <a href="#skills" className="mr-5  text-white bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded">
                     Skills
                 </a>
-                <a href="#testimonials" className="mr-5  text-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded">
+                {/* <a href="#testimonials" className="mr-5  text-white border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded">
                     Testimonials
-                </a>
+                </a> */}
                 </nav>
                 <a
                 href="#contact"
